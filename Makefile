@@ -31,7 +31,7 @@ build:
 INCPATH=src
 $(TEST_EXEC): CFLAGS += $(TARGET)
 $(TEST_EXEC):
-	$(CC) $(CFLAGS) -o $@ -I$(INCPATH) $(TEST_SRC)
+	$(CC) $(CFLAGS) -o $@ -I$(INCPATH) $(TEST_SRC) -lcheck
 
 # The Cleaner
 clean:
