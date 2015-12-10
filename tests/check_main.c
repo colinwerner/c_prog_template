@@ -3,8 +3,6 @@
 
 #include <check.h>
 
-#include <header.h>
-
 #include "check_suites.h"
 
 struct suite {
